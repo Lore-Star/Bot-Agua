@@ -19,14 +19,14 @@ async def tip1(message):
 
 @bot.command()
 async def tip2(message):
-    await message.send('No tires basura al mar', file=discord.File('tarea xd/images/3.png'))
+    await message.send('No tires basura al mar', file=discord.File('botawita/botawitaimages/3.png'))
 
 @bot.command()
 async def tip3(message):
-    await message.send('No uses el retrete como un bote de basura', file=discord.File('tarea xd/images/2.png'))
+    await message.send('No uses el retrete como un bote de basura', file=discord.File('botawita/botawitaimages/2.png'))
 
 @bot.command()
 async def definicion(message):
-    await message.send('Para poder entender las funciones del agua, su composición y el ciclo, primero debemos definir qué es el agua: se trata de una sustancia cuyas moléculas están compuestas por un átomo de oxígeno y dos de hidrógeno. Es un líquido inodoro –no tiene olor–, insípido –no tiene sabor– e incoloro –sin color–.', file=discord.File('tarea xd/images/1.jpeg'))
+    await message.send('Para poder entender las funciones del agua, su composición y el ciclo, primero debemos definir qué es el agua: se trata de una sustancia cuyas moléculas están compuestas por un átomo de oxígeno y dos de hidrógeno. Es un líquido inodoro –no tiene olor–, insípido –no tiene sabor– e incoloro –sin color–.', file=discord.File('botawita/botawitaimages/4.jpeg'))
 
 bot.run(token)
